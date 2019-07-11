@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="ClockView">
+        <attr name="secondNeedleWidth" format="dimension"/>
+        <attr name="minuteNeedleWidth" format="dimension"/>
+        <attr name="hourNeedleWidth" format="dimension"/>
+        <attr name="circlePadding" format="dimension"/>
+        <attr name="mPointRadius" format="dimension"/>
+
+        <attr name="mainTickColor" format="color"/>
+        <attr name="tickColor" format="color"/>
+        <attr name="secondNeedleColor" format="color"/>
+        <attr name="minuteNeedleColor" format="color"/>
+        <attr name="hourNeedleColor" format="color"/>
+
+    </declare-styleable>
+</resources>

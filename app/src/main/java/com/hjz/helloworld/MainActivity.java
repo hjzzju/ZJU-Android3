@@ -12,7 +12,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     private EditText edittext;
-    private Button button1, button2;
+    private Button button1, button2, button3;
 
 
     @Override
@@ -35,6 +35,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, FragActivity.class);
+                startActivity(i);
+            }
+        });
+
+        button3 = (Button) findViewById(R.id.main_button3);
+        button3.setText("ClockView");
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, ClockActivity.class);
                 startActivity(i);
             }
         });
